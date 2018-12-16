@@ -1,0 +1,10 @@
+#include <ros/ros.h>
+#include <MyRobot.h>
+#include <controller_manager/controller_manager.h>
+int main(int argc, char** argv){
+	ros::init(argc, argv, "my_robot");
+	MyRobotHardwareInterface::MyRobot robot;
+	controller_manager::ControllerManager cm(&robot);
+	ros::AsyncSpinner spinner(1);
+	spinner.start();
+}

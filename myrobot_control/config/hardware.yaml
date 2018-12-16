@@ -1,0 +1,6 @@
+myrobot:
+  hardware_interface:
+     loop_hz: 10 # hz
+     joints:
+       - j1
+       - j2

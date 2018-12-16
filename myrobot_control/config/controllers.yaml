@@ -1,0 +1,18 @@
+myrobot:
+  controller:
+    state:
+      type: joint_state_controller/JointStateController
+      publish_rate: 50
+    position:
+      j1:
+        type: position_controllers/JointPositionController
+        joint: j1
+      j2:
+        type: position_controllers/JointPositionController
+        joint: j2
+    arm_trajectory:
+        type: "position_controllers/JointTrajectoryController"
+        joints:
+            - j1
+            - j2
+
