@@ -1,0 +1,10 @@
+ros_control_namespace: /
+controller_list:
+ - name: arm_trajectory
+   action_ns: follow_joint_trajectory
+   type: FollowJointTrajectory
+   default: true
+   joints:
+     - j1
+     - j2
+
