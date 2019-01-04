@@ -31,7 +31,7 @@
         <joint name="j2" value="1.5873" />
     </group_state>
     <!--VIRTUAL JOINT: Purpose: this element defines a virtual joint between a robot link and an external frame of reference (considered fixed with respect to the robot)-->
-    <virtual_joint name="base" type="fixed" parent_frame="frame1" child_link="base_link" />
+    <virtual_joint name="virtual_joint" type="fixed" parent_frame="world" child_link="dummy" />
     <!--DISABLE COLLISIONS: By default it is assumed that any link of the robot could potentially come into collision with any other link in the robot. This tag disables collision checking between a specified pair of links. -->
     <disable_collisions link1="base_link" link2="l1" reason="User" />
     <disable_collisions link1="base_link" link2="l2" reason="User" />

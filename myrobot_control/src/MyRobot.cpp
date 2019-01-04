@@ -16,11 +16,12 @@ namespace MyRobotHardwareInterface{
 	MyRobot::~MyRobot(){
 	}
 	void MyRobot::read(){
-		pos[0] = cmd[0]/3.14;
-		pos[1] = cmd[1]/3.14;  
+		pos[0] = cmd[0];
+		pos[1] = cmd[1];  
 	}
 	void MyRobot::write(){
-		//ROS_INFO("myrobot_control_hardware_interface write: pos[0], pos[1] %f, %f\n", pos[0], pos[1]);
+		//if (pos[0] != cmd[0] || pos[1]!=cmd[1])
+		//	ROS_INFO("myrobot_control_hardware_interface write: pos[0], pos[1] %f, %f\n", pos[0], pos[1]);
 	}
 
 }
