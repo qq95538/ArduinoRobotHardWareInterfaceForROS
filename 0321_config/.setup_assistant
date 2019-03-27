@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: 0321_assembly
+    relative_path: urdf/0321_assembly.urdf
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/0321_assembly.srdf
+  CONFIG:
+    author_name: qq95538
+    author_email: qq95538@163.com
+    generated_timestamp: 1553587219
