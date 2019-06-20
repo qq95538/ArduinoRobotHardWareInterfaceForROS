@@ -66,6 +66,7 @@ idler_cutout_r=idler_teeth/output_pitch/2-gear_wall;
 // translate([0,0,output_pilot_h+ring_gear_h]) rotate([0,180,0]) output_ring();
 
 // assembly view.
+//idler();
 view_assembly(explode=0);
 
 

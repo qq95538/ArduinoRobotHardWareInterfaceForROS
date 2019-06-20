@@ -1,0 +1,502 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:AssemblyGTQ id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/GearTeq/GearTeq%2C%20Version%3D2017.25.0.509%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<m_strFullAssyName id="ref-4">C:\Users\19080\Documents\GitHub\ArduinoRobotHardWareInterfaceForROS\robot_joint_planetary_reducer\input_planetary.gtqasm</m_strFullAssyName>
+<m_strComponent href="#ref-5"/>
+<m_colAssyPositions href="#ref-6"/>
+<m_intPlanetMode>Figure_9</m_intPlanetMode>
+<m_intPlanets>3</m_intPlanets>
+<m_dblRPM>60</m_dblRPM>
+<m_intStream href="#ref-7"/>
+<m_dblStream href="#ref-8"/>
+<m_blnStream href="#ref-9"/>
+<m_strStream0 xsi:null="1"/>
+<m_strStream1 xsi:null="1"/>
+<m_strStream2 xsi:null="1"/>
+<m_strStream3 xsi:null="1"/>
+<m_strStream4 xsi:null="1"/>
+<m_strStream5 xsi:null="1"/>
+<m_strStream6 xsi:null="1"/>
+<m_strStream7 xsi:null="1"/>
+<m_strStream8 xsi:null="1"/>
+<m_strStream9 xsi:null="1"/>
+</a1:AssemblyGTQ>
+<SOAP-ENC:Array id="ref-5" SOAP-ENC:arrayType="xsd:string[2]">
+</SOAP-ENC:Array>
+<a3:Collection id="ref-6" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Microsoft.VisualBasic/Microsoft.VisualBasic%2C%20Version%3D10.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<Keys href="#ref-10"/>
+<KeysCount>0</KeysCount>
+<Values href="#ref-11"/>
+<CultureInfo href="#ref-12"/>
+</a3:Collection>
+<SOAP-ENC:Array id="ref-7" SOAP-ENC:arrayType="xsd:int[10]">
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-8" SOAP-ENC:arrayType="xsd:double[10]">
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-9" SOAP-ENC:arrayType="xsd:boolean[10]">
+<item>False</item>
+<item>False</item>
+<item>False</item>
+<item>False</item>
+<item>False</item>
+<item>False</item>
+<item>False</item>
+<item>False</item>
+<item>False</item>
+<item>False</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-10" SOAP-ENC:arrayType="xsd:string[4]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-11" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-13"/>
+<item href="#ref-14"/>
+<item href="#ref-15"/>
+<item href="#ref-16"/>
+</SOAP-ENC:Array>
+<a4:CultureInfo id="ref-12" xmlns:a4="http://schemas.microsoft.com/clr/ns/System.Globalization">
+<m_isReadOnly>true</m_isReadOnly>
+<compareInfo href="#ref-17"/>
+<textInfo href="#ref-18"/>
+<numInfo href="#ref-19"/>
+<dateTimeInfo xsi:null="1"/>
+<calendar xsi:null="1"/>
+<m_dataItem>0</m_dataItem>
+<cultureID>2057</cultureID>
+<m_name id="ref-20">en-GB</m_name>
+<m_useUserOverride>true</m_useUserOverride>
+</a4:CultureInfo>
+<a1:AssyPosition id="ref-13" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/GearTeq/GearTeq%2C%20Version%3D2017.25.0.509%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<m_strComponentName id="ref-22">Planet_Carrier_Driver01</m_strComponentName>
+<m_strComponentPath id="ref-23">C:\Users\19080\Documents\GitHub\ArduinoRobotHardWareInterfaceForROS\robot_joint_planetary_reducer</m_strComponentPath>
+<m_strPositionName id="ref-24">apPlanetCarrierDriver011</m_strPositionName>
+<m_intMateType>None</m_intMateType>
+<m_CBColor>
+<name xsi:null="1"/>
+<value>0</value>
+<knownColor>35</knownColor>
+<state>1</state>
+</m_CBColor>
+<m_dblRPM>60</m_dblRPM>
+<m_blnBackLashNormalDirection>true</m_blnBackLashNormalDirection>
+<m_blnFlipLineOfAction>false</m_blnFlipLineOfAction>
+<m_blnCenterDistanceLocked>false</m_blnCenterDistanceLocked>
+<m_blnBelongsToPlanetSet>true</m_blnBelongsToPlanetSet>
+<m_dblCenterDistanceSpur>0</m_dblCenterDistanceSpur>
+<m_dblCenterDistanceChain>0</m_dblCenterDistanceChain>
+<m_dblCenterDistanceGearBelt>0</m_dblCenterDistanceGearBelt>
+<m_dblCenterDistanceVeeBelt>0</m_dblCenterDistanceVeeBelt>
+<m_dblCenterDistanceLocked>0</m_dblCenterDistanceLocked>
+<m_dblCenterDistanceExtension>0</m_dblCenterDistanceExtension>
+<m_dblCoefficientOfFriction>0</m_dblCoefficientOfFriction>
+<m_dblSpurContactRatio>0</m_dblSpurContactRatio>
+<m_dblApproachLength>0</m_dblApproachLength>
+<m_dblRecessLength>0</m_dblRecessLength>
+<m_dblContactRatioFace>0</m_dblContactRatioFace>
+<m_blnXYLocked>false</m_blnXYLocked>
+<m_dblX>0</m_dblX>
+<m_dblY>0</m_dblY>
+<m_dblZ>0</m_dblZ>
+<m_dblSumofPitchAngles>90</m_dblSumofPitchAngles>
+<m_strMate id="ref-25"></m_strMate>
+<m_sngMateAngle>0</m_sngMateAngle>
+<m_sngMateCompensateAngle>0</m_sngMateCompensateAngle>
+<m_intGearType>Planet_Carrier_Driver</m_intGearType>
+<m_intStream href="#ref-26"/>
+<m_dblStream href="#ref-27"/>
+<m_blnStream href="#ref-28"/>
+<m_strStream0 xsi:null="1"/>
+<m_strStream1 xsi:null="1"/>
+<m_strStream2 xsi:null="1"/>
+<m_strStream3 xsi:null="1"/>
+<m_strStream4 xsi:null="1"/>
+<m_strStream5 xsi:null="1"/>
+<m_strStream6 xsi:null="1"/>
+<m_strStream7 xsi:null="1"/>
+<m_strStream8 xsi:null="1"/>
+<m_strStream9 xsi:null="1"/>
+</a1:AssyPosition>
+<a1:AssyPosition id="ref-14" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/GearTeq/GearTeq%2C%20Version%3D2017.25.0.509%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<m_strComponentName id="ref-29">Ring_Gear_Follower01</m_strComponentName>
+<m_strComponentPath id="ref-30">C:\Users\19080\Documents\GitHub\ArduinoRobotHardWareInterfaceForROS\robot_joint_planetary_reducer</m_strComponentPath>
+<m_strPositionName id="ref-31">apRing_Gear_Follower011</m_strPositionName>
+<m_intMateType>None</m_intMateType>
+<m_CBColor>
+<name xsi:null="1"/>
+<value>0</value>
+<knownColor>35</knownColor>
+<state>1</state>
+</m_CBColor>
+<m_dblRPM>60</m_dblRPM>
+<m_blnBackLashNormalDirection>true</m_blnBackLashNormalDirection>
+<m_blnFlipLineOfAction>false</m_blnFlipLineOfAction>
+<m_blnCenterDistanceLocked>false</m_blnCenterDistanceLocked>
+<m_blnBelongsToPlanetSet>true</m_blnBelongsToPlanetSet>
+<m_dblCenterDistanceSpur>0</m_dblCenterDistanceSpur>
+<m_dblCenterDistanceChain>0</m_dblCenterDistanceChain>
+<m_dblCenterDistanceGearBelt>0</m_dblCenterDistanceGearBelt>
+<m_dblCenterDistanceVeeBelt>0</m_dblCenterDistanceVeeBelt>
+<m_dblCenterDistanceLocked>0</m_dblCenterDistanceLocked>
+<m_dblCenterDistanceExtension>0</m_dblCenterDistanceExtension>
+<m_dblCoefficientOfFriction>0</m_dblCoefficientOfFriction>
+<m_dblSpurContactRatio>0</m_dblSpurContactRatio>
+<m_dblApproachLength>0</m_dblApproachLength>
+<m_dblRecessLength>0</m_dblRecessLength>
+<m_dblContactRatioFace>0</m_dblContactRatioFace>
+<m_blnXYLocked>false</m_blnXYLocked>
+<m_dblX>0</m_dblX>
+<m_dblY>0</m_dblY>
+<m_dblZ>0</m_dblZ>
+<m_dblSumofPitchAngles>90</m_dblSumofPitchAngles>
+<m_strMate href="#ref-24"/>
+<m_sngMateAngle>0</m_sngMateAngle>
+<m_sngMateCompensateAngle>0</m_sngMateCompensateAngle>
+<m_intGearType>Ring_Gear_Follower</m_intGearType>
+<m_intStream href="#ref-32"/>
+<m_dblStream href="#ref-33"/>
+<m_blnStream href="#ref-34"/>
+<m_strStream0 xsi:null="1"/>
+<m_strStream1 xsi:null="1"/>
+<m_strStream2 xsi:null="1"/>
+<m_strStream3 xsi:null="1"/>
+<m_strStream4 xsi:null="1"/>
+<m_strStream5 xsi:null="1"/>
+<m_strStream6 xsi:null="1"/>
+<m_strStream7 xsi:null="1"/>
+<m_strStream8 xsi:null="1"/>
+<m_strStream9 xsi:null="1"/>
+</a1:AssyPosition>
+<a1:AssyPosition id="ref-15" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/GearTeq/GearTeq%2C%20Version%3D2017.25.0.509%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<m_strComponentName id="ref-35">Planet_Revolving_Follower01</m_strComponentName>
+<m_strComponentPath id="ref-36">C:\Users\19080\Documents\GitHub\ArduinoRobotHardWareInterfaceForROS\robot_joint_planetary_reducer</m_strComponentPath>
+<m_strPositionName id="ref-37">apPlanet_Revolving_Follower011</m_strPositionName>
+<m_intMateType>Gear</m_intMateType>
+<m_CBColor>
+<name xsi:null="1"/>
+<value>0</value>
+<knownColor>35</knownColor>
+<state>1</state>
+</m_CBColor>
+<m_dblRPM>60</m_dblRPM>
+<m_blnBackLashNormalDirection>true</m_blnBackLashNormalDirection>
+<m_blnFlipLineOfAction>false</m_blnFlipLineOfAction>
+<m_blnCenterDistanceLocked>false</m_blnCenterDistanceLocked>
+<m_blnBelongsToPlanetSet>true</m_blnBelongsToPlanetSet>
+<m_dblCenterDistanceSpur>0</m_dblCenterDistanceSpur>
+<m_dblCenterDistanceChain>0</m_dblCenterDistanceChain>
+<m_dblCenterDistanceGearBelt>0</m_dblCenterDistanceGearBelt>
+<m_dblCenterDistanceVeeBelt>0</m_dblCenterDistanceVeeBelt>
+<m_dblCenterDistanceLocked>0</m_dblCenterDistanceLocked>
+<m_dblCenterDistanceExtension>0</m_dblCenterDistanceExtension>
+<m_dblCoefficientOfFriction>0</m_dblCoefficientOfFriction>
+<m_dblSpurContactRatio>0</m_dblSpurContactRatio>
+<m_dblApproachLength>0</m_dblApproachLength>
+<m_dblRecessLength>0</m_dblRecessLength>
+<m_dblContactRatioFace>0</m_dblContactRatioFace>
+<m_blnXYLocked>false</m_blnXYLocked>
+<m_dblX>0</m_dblX>
+<m_dblY>0</m_dblY>
+<m_dblZ>0</m_dblZ>
+<m_dblSumofPitchAngles>90</m_dblSumofPitchAngles>
+<m_strMate href="#ref-31"/>
+<m_sngMateAngle>0</m_sngMateAngle>
+<m_sngMateCompensateAngle>0.136590987</m_sngMateCompensateAngle>
+<m_intGearType>Planet_Revolving_Follower</m_intGearType>
+<m_intStream href="#ref-38"/>
+<m_dblStream href="#ref-39"/>
+<m_blnStream href="#ref-40"/>
+<m_strStream0 xsi:null="1"/>
+<m_strStream1 xsi:null="1"/>
+<m_strStream2 xsi:null="1"/>
+<m_strStream3 xsi:null="1"/>
+<m_strStream4 xsi:null="1"/>
+<m_strStream5 xsi:null="1"/>
+<m_strStream6 xsi:null="1"/>
+<m_strStream7 xsi:null="1"/>
+<m_strStream8 xsi:null="1"/>
+<m_strStream9 xsi:null="1"/>
+</a1:AssyPosition>
+<a1:AssyPosition id="ref-16" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/GearTeq/GearTeq%2C%20Version%3D2017.25.0.509%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<m_strComponentName id="ref-41">Sun_Fixed01</m_strComponentName>
+<m_strComponentPath id="ref-42">C:\Users\19080\Documents\GitHub\ArduinoRobotHardWareInterfaceForROS\robot_joint_planetary_reducer</m_strComponentPath>
+<m_strPositionName id="ref-43">apSun_Fixed011</m_strPositionName>
+<m_intMateType>Gear</m_intMateType>
+<m_CBColor>
+<name xsi:null="1"/>
+<value>0</value>
+<knownColor>35</knownColor>
+<state>1</state>
+</m_CBColor>
+<m_dblRPM>60</m_dblRPM>
+<m_blnBackLashNormalDirection>true</m_blnBackLashNormalDirection>
+<m_blnFlipLineOfAction>false</m_blnFlipLineOfAction>
+<m_blnCenterDistanceLocked>false</m_blnCenterDistanceLocked>
+<m_blnBelongsToPlanetSet>true</m_blnBelongsToPlanetSet>
+<m_dblCenterDistanceSpur>0.69823951806578666</m_dblCenterDistanceSpur>
+<m_dblCenterDistanceChain>0</m_dblCenterDistanceChain>
+<m_dblCenterDistanceGearBelt>0</m_dblCenterDistanceGearBelt>
+<m_dblCenterDistanceVeeBelt>0</m_dblCenterDistanceVeeBelt>
+<m_dblCenterDistanceLocked>0</m_dblCenterDistanceLocked>
+<m_dblCenterDistanceExtension>0</m_dblCenterDistanceExtension>
+<m_dblCoefficientOfFriction>0</m_dblCoefficientOfFriction>
+<m_dblSpurContactRatio>0</m_dblSpurContactRatio>
+<m_dblApproachLength>0</m_dblApproachLength>
+<m_dblRecessLength>0</m_dblRecessLength>
+<m_dblContactRatioFace>0</m_dblContactRatioFace>
+<m_blnXYLocked>false</m_blnXYLocked>
+<m_dblX>0</m_dblX>
+<m_dblY>0</m_dblY>
+<m_dblZ>0</m_dblZ>
+<m_dblSumofPitchAngles>90</m_dblSumofPitchAngles>
+<m_strMate href="#ref-37"/>
+<m_sngMateAngle>180</m_sngMateAngle>
+<m_sngMateCompensateAngle>0.142799661</m_sngMateCompensateAngle>
+<m_intGearType>Sun_Fixed</m_intGearType>
+<m_intStream href="#ref-44"/>
+<m_dblStream href="#ref-45"/>
+<m_blnStream href="#ref-46"/>
+<m_strStream0 xsi:null="1"/>
+<m_strStream1 xsi:null="1"/>
+<m_strStream2 xsi:null="1"/>
+<m_strStream3 xsi:null="1"/>
+<m_strStream4 xsi:null="1"/>
+<m_strStream5 xsi:null="1"/>
+<m_strStream6 xsi:null="1"/>
+<m_strStream7 xsi:null="1"/>
+<m_strStream8 xsi:null="1"/>
+<m_strStream9 xsi:null="1"/>
+</a1:AssyPosition>
+<a4:CompareInfo id="ref-17" xmlns:a4="http://schemas.microsoft.com/clr/ns/System.Globalization">
+<m_name id="ref-47">en-GB</m_name>
+<win32LCID>0</win32LCID>
+<culture>2057</culture>
+<m_SortVersion xsi:null="1"/>
+</a4:CompareInfo>
+<a4:TextInfo id="ref-18" xmlns:a4="http://schemas.microsoft.com/clr/ns/System.Globalization">
+<m_listSeparator xsi:null="1"/>
+<m_isReadOnly>true</m_isReadOnly>
+<m_cultureName id="ref-48">en-GB</m_cultureName>
+<customCultureName href="#ref-48"/>
+<m_nDataItem>0</m_nDataItem>
+<m_useUserOverride>false</m_useUserOverride>
+<m_win32LangID>2057</m_win32LangID>
+</a4:TextInfo>
+<a4:NumberFormatInfo id="ref-19" xmlns:a4="http://schemas.microsoft.com/clr/ns/System.Globalization">
+<numberGroupSizes href="#ref-49"/>
+<currencyGroupSizes href="#ref-50"/>
+<percentGroupSizes href="#ref-49"/>
+<positiveSign id="ref-51">+</positiveSign>
+<negativeSign id="ref-52">-</negativeSign>
+<numberDecimalSeparator id="ref-53">.</numberDecimalSeparator>
+<numberGroupSeparator id="ref-54">,</numberGroupSeparator>
+<currencyGroupSeparator id="ref-55">,</currencyGroupSeparator>
+<currencyDecimalSeparator id="ref-56">.</currencyDecimalSeparator>
+<currencySymbol id="ref-57">£</currencySymbol>
+<ansiCurrencySymbol xsi:null="1"/>
+<nanSymbol id="ref-58">NaN</nanSymbol>
+<positiveInfinitySymbol id="ref-59">∞</positiveInfinitySymbol>
+<negativeInfinitySymbol id="ref-60">-∞</negativeInfinitySymbol>
+<percentDecimalSeparator href="#ref-53"/>
+<percentGroupSeparator href="#ref-54"/>
+<percentSymbol id="ref-61">%</percentSymbol>
+<perMilleSymbol id="ref-62">‰</perMilleSymbol>
+<nativeDigits href="#ref-63"/>
+<m_dataItem>0</m_dataItem>
+<numberDecimalDigits>2</numberDecimalDigits>
+<currencyDecimalDigits>2</currencyDecimalDigits>
+<currencyPositivePattern>0</currencyPositivePattern>
+<currencyNegativePattern>1</currencyNegativePattern>
+<numberNegativePattern>1</numberNegativePattern>
+<percentPositivePattern>1</percentPositivePattern>
+<percentNegativePattern>1</percentNegativePattern>
+<percentDecimalDigits>2</percentDecimalDigits>
+<digitSubstitution>1</digitSubstitution>
+<isReadOnly>true</isReadOnly>
+<m_useUserOverride>false</m_useUserOverride>
+<m_isInvariant>false</m_isInvariant>
+<validForParseAsNumber>true</validForParseAsNumber>
+<validForParseAsCurrency>true</validForParseAsCurrency>
+</a4:NumberFormatInfo>
+<SOAP-ENC:Array id="ref-26" SOAP-ENC:arrayType="xsd:int[10]">
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-27" SOAP-ENC:arrayType="xsd:double[10]">
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-28" SOAP-ENC:arrayType="xsd:boolean[10]">
+<item>False</item>
+<item>False</item>
+<item>False</item>
+<item>False</item>
+<item>False</item>
+<item>False</item>
+<item>False</item>
+<item>False</item>
+<item>False</item>
+<item>False</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-32" SOAP-ENC:arrayType="xsd:int[10]">
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-33" SOAP-ENC:arrayType="xsd:double[10]">
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-34" SOAP-ENC:arrayType="xsd:boolean[10]">
+<item>False</item>
+<item>False</item>
+<item>False</item>
+<item>False</item>
+<item>False</item>
+<item>False</item>
+<item>False</item>
+<item>False</item>
+<item>False</item>
+<item>False</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-38" SOAP-ENC:arrayType="xsd:int[10]">
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-39" SOAP-ENC:arrayType="xsd:double[10]">
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-40" SOAP-ENC:arrayType="xsd:boolean[10]">
+<item>False</item>
+<item>False</item>
+<item>False</item>
+<item>False</item>
+<item>False</item>
+<item>False</item>
+<item>False</item>
+<item>False</item>
+<item>False</item>
+<item>False</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-44" SOAP-ENC:arrayType="xsd:int[10]">
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-45" SOAP-ENC:arrayType="xsd:double[10]">
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+<item>0</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-46" SOAP-ENC:arrayType="xsd:boolean[10]">
+<item>False</item>
+<item>False</item>
+<item>False</item>
+<item>False</item>
+<item>False</item>
+<item>False</item>
+<item>False</item>
+<item>False</item>
+<item>False</item>
+<item>False</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-49" SOAP-ENC:arrayType="xsd:int[1]">
+<item>3</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-50" SOAP-ENC:arrayType="xsd:int[1]">
+<item>3</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-63" SOAP-ENC:arrayType="xsd:string[10]">
+<item id="ref-64">0</item>
+<item id="ref-65">1</item>
+<item id="ref-66">2</item>
+<item id="ref-67">3</item>
+<item id="ref-68">4</item>
+<item id="ref-69">5</item>
+<item id="ref-70">6</item>
+<item id="ref-71">7</item>
+<item id="ref-72">8</item>
+<item id="ref-73">9</item>
+</SOAP-ENC:Array>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

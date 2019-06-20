@@ -1,0 +1,93 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:PlanetCarrier id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/GearTeq/GearTeq%2C%20Version%3D2017.25.0.509%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<m_intNumberOfPlanets>3</m_intNumberOfPlanets>
+<m_dblOrbitRadius>0</m_dblOrbitRadius>
+<m_dblPlanetPositions xsi:null="1"/>
+<m_colCarrierBaseEntities xsi:null="1"/>
+<m_dblRPM href="#ref-5"/>
+<m_PlanetMode>None</m_PlanetMode>
+<m_sngX href="#ref-6"/>
+<m_sngY href="#ref-7"/>
+<m_sngZ href="#ref-8"/>
+<m_dblCarrierThickness>0.25</m_dblCarrierThickness>
+<m_dblCarrierOD>5</m_dblCarrierOD>
+<m_blnBackLashNormalDirection href="#ref-9"/>
+<m_blnCreateWithArcs>false</m_blnCreateWithArcs>
+<m_IsLocked>false</m_IsLocked>
+<m_dblZDistance href="#ref-10"/>
+<m_sngMateAngle href="#ref-11"/>
+<m_sngMateCompensateAngle href="#ref-12"/>
+<m_intUnits>Inches</m_intUnits>
+<m_intInstance>0</m_intInstance>
+<m_intMateGroup>1</m_intMateGroup>
+<m_clrColor>
+<name xsi:null="1"/>
+<value>0</value>
+<knownColor>78</knownColor>
+<state>1</state>
+</m_clrColor>
+<m_intMateType href="#ref-13"/>
+<m_strSpringUnits id="ref-14">lb/in</m_strSpringUnits>
+<m_strVelocityUnits id="ref-15">in/sec</m_strVelocityUnits>
+<m_strName id="ref-16">Planet_Carrier_Driver02</m_strName>
+<m_strFullPathName id="ref-17">C:\Users\19080\Documents\GitHub\ArduinoRobotHardWareInterfaceForROS\robot_joint_planetary_reducer\Planet_Carrier_Driver02.gtc</m_strFullPathName>
+<m_strInternalID id="ref-18"> 148311572</m_strInternalID>
+<m_strPassWord xsi:null="1"/>
+<m_strMate href="#ref-19"/>
+<Mating_x002B_m_blnBackLashNormalDirection href="#ref-9"/>
+<Mating_x002B_m_blnCreateWithArcs>false</Mating_x002B_m_blnCreateWithArcs>
+<Mating_x002B_m_IsLocked>false</Mating_x002B_m_IsLocked>
+<Mating_x002B_m_dblZDistance href="#ref-10"/>
+<Mating_x002B_m_sngMateAngle href="#ref-11"/>
+<Mating_x002B_m_sngMateCompensateAngle href="#ref-12"/>
+<Mating_x002B_m_intUnits>Inches</Mating_x002B_m_intUnits>
+<Mating_x002B_m_intInstance>0</Mating_x002B_m_intInstance>
+<Mating_x002B_m_intMateGroup>1</Mating_x002B_m_intMateGroup>
+<Mating_x002B_m_clrColor>
+<name xsi:null="1"/>
+<value>0</value>
+<knownColor>78</knownColor>
+<state>1</state>
+</Mating_x002B_m_clrColor>
+<Mating_x002B_m_intMateType href="#ref-13"/>
+<Mating_x002B_m_strSpringUnits href="#ref-14"/>
+<Mating_x002B_m_strVelocityUnits href="#ref-15"/>
+<Mating_x002B_m_strName href="#ref-16"/>
+<Mating_x002B_m_strFullPathName href="#ref-17"/>
+<Mating_x002B_m_strInternalID href="#ref-18"/>
+<Mating_x002B_m_strPassWord xsi:null="1"/>
+<Mating_x002B_m_strMate href="#ref-19"/>
+</a1:PlanetCarrier>
+<SOAP-ENC:Array id="ref-5" SOAP-ENC:arrayType="xsd:double[1]">
+<item>0</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-6" SOAP-ENC:arrayType="xsd:float[1]">
+<item>0</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-7" SOAP-ENC:arrayType="xsd:float[1]">
+<item>0</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-8" SOAP-ENC:arrayType="xsd:float[1]">
+<item>0</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-9" SOAP-ENC:arrayType="xsd:boolean[1]">
+<item>True</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-10" SOAP-ENC:arrayType="xsd:double[1]">
+<item>0</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-11" SOAP-ENC:arrayType="xsd:float[1]">
+<item>0</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-12" SOAP-ENC:arrayType="xsd:float[1]">
+<item>0</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-13" SOAP-ENC:arrayType="a1:MateType[1]" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/GearTeq/GearTeq%2C%20Version%3D2017.25.0.509%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<item>None</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-19" SOAP-ENC:arrayType="xsd:string[1]">
+<item id="ref-20"></item>
+</SOAP-ENC:Array>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
